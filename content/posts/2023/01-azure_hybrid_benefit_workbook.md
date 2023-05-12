@@ -1,5 +1,5 @@
 ---
-title: "Tracking Azure Hybrid Benefit with Azure Workbooks"
+title: "Tracking Azure Hybrid Benefit with Azure Workbooks 2"
 date: 2023-04-18T10:17:11-04:00
 draft: false
 type: post
