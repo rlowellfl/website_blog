@@ -6,4 +6,4 @@ type: page
 url: /about_me/
 ---
 
-I'm just this guy, you know?
+I'm just this guy, you know???
