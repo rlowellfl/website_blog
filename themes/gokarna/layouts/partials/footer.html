@@ -1,0 +1,13 @@
+<footer class="footer">
+    <!-- Option for user to inject custom html -->
+    {{ if .Site.Params.CustomFooterHTML }}
+    {{ .Site.Params.CustomFooterHTML | safeHTML }}
+    {{ end }}
+
+    <span>&copy; {{ now.Year }} {{ .Site.Params.Footer}}</span>
+    <p class="disclaimer">
+    All views expressed on this site are my own and not representative of any organization I work for or with.
+    Any code provided is for example use only and is used solely at your own risk. 
+    Wear safety goggles before any commits to production.
+    </p>
+</footer>
