@@ -1,5 +1,5 @@
 ---
-title: "Tracking Azure Hybrid Benefit with Azure Workbooks 2"
+title: "Tracking Azure Hybrid Benefit with Workbooks"
 date: 2023-04-18T10:17:11-04:00
 draft: false
 type: post
@@ -13,8 +13,6 @@ tags:
   - Linux Virtual Machines
   - Azure Hybrid Use Benefit
 ---
-
-# Tracking Azure Hybrid Benefit
 
 ## What is Azure Hybrid Benefit?
 [Azure Hybrid Benefit](https://azure.microsoft.com/en-gb/pricing/hybrid-benefit/) is a licensing program that allows you to bring your on-premises core-based Windows Server, SQL Server, and Red Hat Linux licenses with active Software Assurance (or subscription) to Azure. Utilizing this benefit can save considerable cost by eliminating the hourly licensing charges for Azure resources, allowing you to pay only for hardware resources. By leveraging Azure Hybrid Benefit, you can optimize your cloud infrastructure costs.
