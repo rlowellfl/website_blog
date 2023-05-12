@@ -4,7 +4,6 @@ date: 2023-04-18T10:17:11-04:00
 draft: false
 type: post
 url: /azure_hybrid_benefit_workbook/
-image: images/2023-thumbs/azure_hybrid_benefit_workbook.jpg
 categories:
   - Azure
   - Linux
