@@ -33,7 +33,7 @@ enableRobotsTXT = true
   footer = "Ryan Lowell | Lowell Tech"
   togglePreviousAndNextButtons = "true"
 
-  customFooterHTML = '''
+  CustomPostFooterHTML = '''
     <script src="https://utteranc.es/client.js"
     repo="rlowellfl/website_blog"
     issue-term="pathname"
