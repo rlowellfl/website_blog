@@ -24,9 +24,11 @@ Managing and keeping track of Azure Hybrid Benefit entitlements can be challengi
 
 I've created this Workbook to simplify the management of Azure Hybrid Benefit in your environment. [Azure Workbooks](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview) provide a flexible, interactive, and customizable way to visualize and analyze your Azure resources. By querying the [Azure Resource Graph](https://learn.microsoft.com/en-us/azure/governance/resource-graph/overview), the report gathers real-time information about your virtual machines' usage of Azure Hybrid Benefit and creates visualizations to help you understand your licensing landscape.
 
-![AHB](/ahb_dashboard_example.png)
+![AHB](/images/ahb_dashboard_example.png)
 
 ## Getting started
+You can deploy the workbook to your environment by clicking the blue button:
+
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frlowellfl%2Fazure_workbooks%2Fmain%2Fhybrid_benefit_tracker_workbook.json)
 
 Select your preferred Subscription, Resource Group, and Region to store the dashboard resource. Leave all other fields as-is.
