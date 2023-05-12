@@ -1,7 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: false
+draft: true
+type: post
 url: /{{ .Name }}/
 image: images/2023-thumbs/{{ .Name }}.jpg
 categories:
