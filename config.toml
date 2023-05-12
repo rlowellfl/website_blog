@@ -1,7 +1,7 @@
 baseURL = "https://lowelltech.io/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-title = "Lowell Tech | Microsoft Azure Cloud Blog"
+title = "Lowell Tech   |   Microsoft Azure Cloud Blog"
 theme = "gokarna"
 enableRobotsTXT = true
 
@@ -13,7 +13,7 @@ enableRobotsTXT = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "I'm a Sr. Cloud Solution Architect at Microsoft with a focus in Azure Core architecture."
+  description = "I'm Ryan Lowell, a Sr. Cloud Solution Architect at Microsoft. My particular area of focus is architecture, engineering, security, governance, and technical training on Azure. I truly enjoy helping companies build and expand their infrastructure in the Microsoft cloud. During my nearly 20-year technology career I have worked across many areas of IT including professional and managed services, security implementation, project delivery, technical training, system administration, and technical presales."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#1a73f7"
