@@ -1,4 +1,4 @@
-baseURL = "http://www.lowelltech.io/"
+baseURL = "https://www.lowelltech.io/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Lowell Tech | Microsoft Azure Cloud Blog"
