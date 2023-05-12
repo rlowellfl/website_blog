@@ -6,34 +6,39 @@ theme = "gokarna"
 enableRobotsTXT = true
 
 [params]
-  # URL for the avatar on homepage
+
   avatarURL = "/images/avatar.png"
-
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  metaKeywords = ["blog", "Azure", "Microsoft", "Ryan Lowell", "Cloud", "Cloud Solution Architect", "Senior"]
+  showPostsOnHomePage = "recent"
   avatarSize = "size-m"
-
-  # Description to display on homepage
   description = "I'm Ryan Lowell, a Sr. Cloud Solution Architect at Microsoft. My particular area of focus is architecture, engineering, security, governance, and technical training on Azure. I truly enjoy helping companies build and expand their infrastructure in the Microsoft cloud. During my nearly 20-year technology career I have worked across many areas of IT including professional and managed services, security implementation, project delivery, technical training, system administration, and technical presales."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#1a73f7"
 
-  # You can use this to inject any HTML in the <head> tag.
-  # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = '''
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q10MK9N3PR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q10MK9N3PR');
+    </script>
+  '''
 
-  # Keywords relevant for SEO
-  metaKeywords = ["blog", "Azure", "Microsoft", "Ryan Lowell", "Cloud", "Cloud Solution Architect", "Senior"]
-
-  # If you want to display posts on the homepage, the options are
-  # "popular" (order posts by weight), "recent" (order posts by date)
-  # or "" (do not display, default option)
-  showPostsOnHomePage = "recent"
-
-  # Footer text
   footer = "Ryan Lowell | Lowell Tech"
-
   togglePreviousAndNextButtons = "true"
+
+  customFooterHTML = '''
+    <script src="https://utteranc.es/client.js"
+    repo="rlowellfl/website_blog"
+    issue-term="pathname"
+    theme="github-dark"
+    crossorigin="anonymous"
+    async>
+    </script>
+  '''
 
 [menu]
     # We use feather-icons: https://feathericons.com/
